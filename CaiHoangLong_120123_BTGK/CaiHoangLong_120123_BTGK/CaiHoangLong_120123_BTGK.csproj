@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BAO.cs" />
+    <Compile Include="DANHMUC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SACH.cs" />
+    <Compile Include="TAILIEU.cs" />
+    <Compile Include="TAPCHI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

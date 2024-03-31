@@ -1,0 +1,7 @@
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_BTGK\CaiHoangLong_120123_BTGK\bin\Debug\CaiHoangLong_120123_BTGK.exe.config
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_BTGK\CaiHoangLong_120123_BTGK\bin\Debug\CaiHoangLong_120123_BTGK.exe
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_BTGK\CaiHoangLong_120123_BTGK\bin\Debug\CaiHoangLong_120123_BTGK.pdb
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_BTGK\CaiHoangLong_120123_BTGK\obj\Debug\CaiHoangLong_120123_BTGK.csproj.AssemblyReference.cache
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_BTGK\CaiHoangLong_120123_BTGK\obj\Debug\CaiHoangLong_120123_BTGK.csproj.CoreCompileInputs.cache
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_BTGK\CaiHoangLong_120123_BTGK\obj\Debug\CaiHoangLong_120123_BTGK.exe
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_BTGK\CaiHoangLong_120123_BTGK\obj\Debug\CaiHoangLong_120123_BTGK.pdb
