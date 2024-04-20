@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntityDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Khoa">
+    <Key>
+      <PropertyRef Name="MaKhoa" />
+    </Key>
+    <Property Name="MaKhoa" Type="Int32" Nullable="false" />
+    <Property Name="TenKhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Lop" Relationship="Self.FK__Lop__MaKhoa__267ABA7A" FromRole="Khoa" ToRole="Lop" />
+  </EntityType>
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="MaLop" />
+    </Key>
+    <Property Name="MaLop" Type="Int32" Nullable="false" />
+    <Property Name="TenLop" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaKhoa" Type="Int32" />
+    <NavigationProperty Name="Khoa" Relationship="Self.FK__Lop__MaKhoa__267ABA7A" FromRole="Lop" ToRole="Khoa" />
+    <NavigationProperty Name="SinhVien" Relationship="Self.FK__SinhVien__MaLop__29572725" FromRole="Lop" ToRole="SinhVien" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="MaSV" />
+    </Key>
+    <Property Name="MaSV" Type="Int32" Nullable="false" />
+    <Property Name="TenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Tuoi" Type="Int32" />
+    <Property Name="MaLop" Type="Int32" />
+    <NavigationProperty Name="Lop" Relationship="Self.FK__SinhVien__MaLop__29572725" FromRole="SinhVien" ToRole="Lop" />
+  </EntityType>
+  <Association Name="FK__Lop__MaKhoa__267ABA7A">
+    <End Role="Khoa" Type="Self.Khoa" Multiplicity="0..1" />
+    <End Role="Lop" Type="Self.Lop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Khoa">
+        <PropertyRef Name="MaKhoa" />
+      </Principal>
+      <Dependent Role="Lop">
+        <PropertyRef Name="MaKhoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SinhVien__MaLop__29572725">
+    <End Role="Lop" Type="Self.Lop" Multiplicity="0..1" />
+    <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="MaLop" />
+      </Principal>
+      <Dependent Role="SinhVien">
+        <PropertyRef Name="MaLop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EntityDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Khoa" EntityType="Self.Khoa" />
+    <EntitySet Name="Lop" EntityType="Self.Lop" />
+    <EntitySet Name="SinhVien" EntityType="Self.SinhVien" />
+    <AssociationSet Name="FK__Lop__MaKhoa__267ABA7A" Association="Self.FK__Lop__MaKhoa__267ABA7A">
+      <End Role="Khoa" EntitySet="Khoa" />
+      <End Role="Lop" EntitySet="Lop" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SinhVien__MaLop__29572725" Association="Self.FK__SinhVien__MaLop__29572725">
+      <End Role="Lop" EntitySet="Lop" />
+      <End Role="SinhVien" EntitySet="SinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CaiHoangLong_120123_CodeFirst.props" />
+</Project>

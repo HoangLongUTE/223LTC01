@@ -1,0 +1,12 @@
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\bin\Debug\CaiHoangLong_120123_EF.exe.config
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\bin\Debug\CaiHoangLong_120123_EF.exe
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\bin\Debug\CaiHoangLong_120123_EF.pdb
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\bin\Debug\EntityFramework.dll
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\bin\Debug\EntityFramework.SqlServer.dll
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\bin\Debug\EntityFramework.xml
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\bin\Debug\EntityFramework.SqlServer.xml
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\obj\Debug\CaiHoangLong_120123_EF.csproj.AssemblyReference.cache
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\obj\Debug\CaiHoangLong_120123_EF.csproj.CoreCompileInputs.cache
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\obj\Debug\CaiHoangLong_120123_EF.csproj.CopyComplete
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\obj\Debug\CaiHoangLong_120123_EF.exe
+E:\EducationProcess\32\LapTrinhC#\CaiHoangLong_120123_BT\CaiHoangLong_120123_EF\CaiHoangLong_120123_EF\obj\Debug\CaiHoangLong_120123_EF.pdb
